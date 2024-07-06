@@ -47,16 +47,13 @@
 
 ## Introduction
 
-This Project is enthusiastically implemented by a group of Engineering students at Faculty <br/>
-of Engineering Ain Shams University.
+This Project is enthusiastically implemented by a group of Engineering students at Faculty of Engineering Ain Shams University.
 <br/>
 <br/>
-Much research & planning was done before the project. Many Plans & ideas were considered.<br/>
-In addition to that, lots of potential problems were discussed.
+Much research & planning was done before the project. Many Plans & ideas were considered. In addition to that, lots of potential problems were discussed.
 <br/>
 <br/>
-Many problems where faced during the process of the design and implementation of the project.<br/>
-These problems were carefully tackled via innovative Engineering approaches.
+Many problems where faced during the process of the design and implementation of the project. These problems were carefully tackled via innovative Engineering approaches.
 <br/>
 <br/>
 This Project involves a lot of aspects. It mainly consists of two major sectors :<br/>
@@ -120,7 +117,6 @@ This Project involves a lot of aspects. It mainly consists of two major sectors 
 
 <br/>
 <!-- }}} -->
-
 
 
 
