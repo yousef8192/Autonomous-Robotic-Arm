@@ -61,6 +61,7 @@ This Project involves a lot of aspects. It mainly consists of two major sectors 
     - Transducer/Circuit/PCB<br/>
     - Programming/Automation<br/>
 <br/>
+
 * Mechanical Design Sector<br/>
     - Statics (Supports/Weights)<br/>
     - Dynamics (Motors/Degree of Freedom)<br/>
