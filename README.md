@@ -84,7 +84,8 @@ This Project involves a lot of aspects. It mainly consists of two major sectors 
 * Design Approach : Functional Programming
 
 * Tools used :
-    - gcc (C/C++)
+    - gcc & g++ (C/C++)
+    - Arduino IDE
     - Altium Designer
     - TinkerCad Circuit Simulator
     - MIT App Inventor
