@@ -1,22 +1,37 @@
-# JavaFX-Restaurant
 
+# Autonomous-Robotic-Arm
 
-Welcome Page              | Admin Info Page                   | User Order Page
-:------------------------:|:---------------------------------:|:------------------------:
-![](img/welcome-page.png) | ![](img/restaurant-info-page.png) | ![](img/order-page.png)
+<br/><img src="img/arm-demo.gif" alt="drawing" style="width:1000px;"/><br/><br/>
+<br/>
+<br/><img src="img/arm-static-slideshow.png" alt="drawing" style="width:1000px;"/><br/>
 
 
 <!-- {{{Table of Contents --> 
 
+<br/>
+
 ## Table of Contents
 
 * [Table of Contents](#table-of-contents)
-* [Introduction](#introduction)
-* [Technical Details](#technical-details)
-* [Key User Features](#key-user-features)
-* [Key Developer Features](#key-developer-features)
 * [Project DEMO](#project-demo)
-* [UML Diagram DEMO](#uml-diagram-demo)
+* [Introduction](#introduction)
+* [Project Design Phase](#project-design-phase)
+  * [Electrical Design Phase](#-electrical-design-phase)
+  * [Mechanical Design Phase](#-mechanical-design-phase)
+* [Project Specifications](#project-specifications)
+
+<br/>
+
+
+
+<!-- }}} -->
+
+<!-- {{{Project DEMO --> 
+
+## Project DEMO
+
+* Link for Full Video with Explanation : <br/> 
+    - drive.google.com/file/d/1RDlcdBdnj1vNe7r-o8fx5oqH77sbYkZg/view?usp=drivesdk
 
 <!-- }}} -->
 
@@ -25,150 +40,78 @@ Welcome Page              | Admin Info Page                   | User Order Page
 
 ## Introduction
 
-This Project is a Restaurant Management System Desktop Application made with Java & JavaFX.<br/>
-It is based on OOP Design Approach and utilizes lots of great features both regarding the developer and the user sides. 
+This Project is enthusiastically implemented by a group of Engineering students at Faculty of Engineering Ain Shams University.
+<br/>
+<br/>
+Much research & planning was done before the project. Many Plans & ideas were considered. In addition to that, lots of potential problems were discussed.
+<br/>
+<br/>
+Many problems where faced during the process of the design and implementation of the project. These problems were carefully tackled via innovative Engineering approaches.
+<br/>
+<br/>
+This Project involves a lot of aspects. It mainly consists of two major sectors :<br/>
+* Electrical Design Sector<br/>
+    - Transducer/Circuit/PCB<br/>
+    - Programming/Automation<br/>
+<br/>
+
+* Mechanical Design Sector<br/>
+    - Statics (Supports/Weights)<br/>
+    - Dynamics (Motors/Degree of Freedom)<br/>
 
 <br/>
 <!-- }}} -->
 
-<!-- {{{Technical Details --> 
+<!-- {{{Project Design Phase --> 
+## Project Design Phase
 
-## Technical Details
+### >>>>>>>>> Electrical Design Phase
+<br/><img src="img/elec-design-phase.png" alt="drawing" style="width:1000px;"/><br/>
 
-* Language : Java
+<br/>
 
-* GUI : JavaFX
+### >>>>>>>>> Mechanical Design Phase
+<br/><img src="img/mech-design-phase.png" alt="drawing" style="width:1000px;"/><br/>
+<br/>
+<!-- }}} -->
 
-* Design Approach : Object Oriented Programming
+<!-- {{{Project Specifications --> 
 
-* Database System : I/O File Operations
+## Project Specifications 
+
+* Languages : C/C++
+
+* Design Approach : Functional Programming
+
+* Tools used :
+    - gcc (C/C++)
+    - Altium Designer
+    - TinkerCad Circuit Simulator
+    - MIT App Inventor
+    - SolidWorks Design
+    - AutoDesk Systems
+
+* Technical Specifications :
+    - Operating Voltage : 9~12V
+    - Battery Lifetime : 2~3 Hours (Average Load)
+    - Ultrasonic Frequency : 40Khz ~ 250Khz
+    - Maximum Lift Weight : 0.535Kg
+    - Degree of Freedom : 6 DOFs
+    - Rotation Degree/Servo : 180
+
+* Components used :
+    - Arduino UNO, Ultrasonic Sensor, HC-05 Module
+    - Li-ion 18650 Batteries
+    - PCB FR4, Thermal paper, FeCl3 conc. Acid
+    - Jumper Wires, Male Pin Headers
+    - LM7806CV, Capacitors
+    - Plywood 3mm, Rigid Foam
+    - Nuts & Screws, Caster Wheels
+    - Adhesive Tape, Adhesive Glue
 
 <br/>
 <!-- }}} -->
 
-<!-- {{{Key User Features --> 
-## Key User Features
-
-* The application serves both the Owners and Customers of the Restaurant
-
-* Owners Features :
-    - Ability to manage Customers and Orders (e.g. number of customers and their information, details of the ongoing orders).
-    - Ability to manage Stock and served Items (e.g. add/remove items from the menu, edit their prices and details).
-    - Ability to check Restaurant's current state (e.g. reserved & free tables, dates of the ongoing bookings and reservations).
-
-* Customers Features :
-    - Ability to create a Customer's account with a unique Username and Password.
-    - Ability to see the Menu items and their prices.
-    - Ability to order food and book a table at a certain specified date.
-
-
-<br/>
-<!-- }}} -->
-
-<!-- {{{Key Developer Features --> 
-## Key Developer Features
-
-* Graphical User Interface (GUI) : The application boasts a visually appealing interface built with JavaFX, ensuring smooth navigation and a pleasant user experience.
-
-* Input Sanitization : Robust input sanitization that ensures all user inputs are valid and can be processed safely throughout the application.
-
-* Exception Handling : Error handling mechanisms are in place to manage unexpected scenarios, enhancing the application's reliability.
-
-* OOP Design : Leverage of the main OOP Pillars such as Abstraction, Encapsulation, Inheritance, Polymorphism.
-
-<br/>
-<!-- }}} -->
-
-<!-- {{{Project DEMO --> 
-
-## Project-DEMO
-
-### Welcome Page : <br/><br/>
-<img src="img/welcome-page.png" alt="drawing" style="width:600px;"/>
-<br/><br/><br/>
-
-### Registration Page : <br/><br/>
-<img src="img/registration-page.png" alt="drawing" style="width:600px;"/>
-<br/><br/><br/>
-
-### Login Page : <br/><br/>
-<img src="img/login-page.png" alt="drawing" style="width:600px;"/>
-<br/><br/><br/>
-
-### Admin Page : <br/><br/>
-<img src="img/admin-page.png" alt="drawing" style="width:600px;"/>
-<br/><br/><br/>
-
-
-
-### Restaurant Information Page : <br/><br/>
-<img src="img/restaurant-info-page.png" alt="drawing" style="width:600px;"/>
-<br/><br/><br/>
-
-
-
-### Customer Page : <br/><br/>
-<img src="img/customer-page.png" alt="drawing" style="width:600px;"/>
-<br/><br/><br/>
-
-### Order Page : <br/><br/>
-<img src="img/order-page.png" alt="drawing" style="width:600px;"/>
-<br/><br/><br/>
-
-### Order Confirmation Page : <br/><br/>
-<img src="img/order-confirmation-page.png" alt="drawing" style="width:600px;"/>
-<br/><br/><br/>
-
-### Input Sanitation : <br/><br/>
-<img src="img/wrong-pwd.png" alt="drawing" style="width:600px;"/><br/>
-<img src="img/wrong-number.png" alt="drawing" style="width:600px;"/><br/>
-<img src="img/wrong-address.png" alt="drawing" style="width:600px;"/><br/>
-<img src="img/invalid-format.png" alt="drawing" style="width:600px;"/><br/>
-<img src="img/invalid-duration.png" alt="drawing" style="width:600px;"/><br/>
-<br/><br/><br/>
-
-### Exception Handling : <br/><br/>
-<img src="img/already-registered-username.png" alt="drawing" style="width:600px;"/><br/>
-<img src="img/already-registered-number.png" alt="drawing" style="width:600px;"/><br/>
-<img src="img/invaild-login.png" alt="drawing" style="width:600px;"/><br/>
-<img src="img/food-item-exists.png" alt="drawing" style="width:600px;"/><br/>
-<br/><br/><br/>
-
-
-<!-- }}} -->
-
-<!-- {{{UML Diagram DEMO --> 
-
-## UML Diagram DEMO
-
-
-<br/>
-
-### Restaurant Class UML : <br/><br/>
-<img src="img/Restaurant-Class-UML.png" alt="drawing" style="width:600px;"/>
-<br/><br/><br/>
-
-### Order Class UML : <br/><br/>
-<img src="img/Order-Class-UML.png" alt="drawing" style="width:600px;"/>
-<br/><br/><br/>
-
-### FoodItem Class UML : <br/><br/>
-<img src="img/FoodItem-Class-UML.png" alt="drawing" style="width:600px;"/>
-<br/><br/><br/>
-
-### Table Class UML : <br/><br/>
-<img src="img/Table-Class-UML.png" alt="drawing" style="width:600px;"/>
-<br/><br/><br/>
-
-### Restaurant's Hall Class UML : <br/><br/>
-<img src="img/Hall-Class-UML.png" alt="drawing" style="width:600px;"/>
-<br/><br/><br/>
-
-### User Class UML : <br/><br/>
-<img src="img/User-Class-UML.png" alt="drawing" style="width:600px;"/>
-<br/><br/>
-
-<!-- }}} -->
 
 
 
