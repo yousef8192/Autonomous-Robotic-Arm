@@ -65,12 +65,12 @@ This Project involves a lot of aspects. It mainly consists of two major sectors 
 <!-- {{{Project Design Phase --> 
 ## Project Design Phase
 
-### >>>>>>>>> Electrical Design Phase
+### >>> Electrical Design Phase
 <br/><img src="img/elec-design-phase.png" alt="drawing" style="width:1000px;"/><br/>
 
 <br/>
 
-### >>>>>>>>> Mechanical Design Phase
+### >>> Mechanical Design Phase
 <br/><img src="img/mech-design-phase.png" alt="drawing" style="width:1000px;"/><br/>
 <br/>
 <!-- }}} -->
